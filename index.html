@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BOOSTRAP WEBSITE</title>
+
+    <!-- BOOSTRAP CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- CUSTOM CSS-->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <!-- Titulo o logotipo del nabvar -->
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" class="w-25" alt="Fazt">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Team</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+              
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="main-header">
+        <div class="background-overlay text-white py-5">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-white align-self-center justify-content-center">
+                  <h1>Este es el titulo de producto </h1>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, vel.</p>
+                  <a href="#" class="btn btn-outline-secondary btn-lg text-white">Read More</a>
+                  
+                </div>
+                <div class="col-md-6">
+                  <img src="img/product.jpg" alt="Imagen del producto" class="img-fluid d-none d-md-block m-auto">
+                </div>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <!-- SECCION  DE SUSCRIPCION -->
+    <section class="bg-dark text-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-group">
+              <input type="text" class="form-control form-control-lg" id="Name" aria-describedby="nameHelp" placeholder="Enter your name">
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <input type="email" class="form-control form-control-lg" id="Email" aria-describedby="emailHelp" placeholder="Enter your email">
+            </div>
+          </div>
+          <div class="col-md-4 ">
+              <button type="submit" class="btn btn-outline-warning btn-lg btn-block">Suscribete</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARACTERISTICAS -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card text-center border-primary">
+              <div class="card-body">
+                <h3 class="card-title">Titulo 1</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center border-primary bg-primary">
+              <div class="card-body">
+                <h3 class="card-title">Titulo 2</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center border-primary">
+              <div class="card-body">
+                <h3 class="card-title">Titulo 3</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card text-center border-primary bg-primary">
+              <div class="card-body">
+                <h3 class="card-title">Titulo 4</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- ABOUT -->
+    <section class="py-2 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="m-5">
+            <h3>¿por qué este producto?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, tempora impedit cumque velit laborum maxime assumenda laudantium, commodi, facere temporibus officia ea deserunt. Quisquam adipisci quasi consectetur cum esse beatae!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, repudiandae explicabo? Ullam possimus voluptate consequatur neque doloribus soluta in accusamus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACORDION -->
+    <section>
+      <div class="container text-center p-3" >
+        <did class="row">  
+          <div class="col-12">
+            <div id="accordion">
+  
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Pregunta uno
+                    </button>
+                  </h5>
+                </div>
+  
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+  
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Collapsible Group Item #2
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+  
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Collapsible Group Item #3
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="team text-center">
+      <div class="container p-5">
+        <div class="row justify-content-center">
+          <h1 class="text-white ">Team</h1>
+          <p class="text-white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A quasi aliquid illum dolores eaque eum labore non odio fugit asperiores necessitatibus, error esse nihil, adipisci nobis quia numquam qui nostrum.
+          </p>
+        </div>
+        <div class="row ">
+          <div class="col-lg-3 py-2">
+            <div class="card">
+              <div class="card-body">
+                <img class="img-fluid rounded-circle w-50 m-auto" src="img/person.png" alt="persona1" >
+                <h3>Jhon Carter</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="p-4"><a href="https://www.facebook.com/FaztTech/" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
+                    <div class="p-4"><a href="https://www.facebook.com/FaztTech/" target="_blank"><i class="fab fa-twitter"></i></a></div>
+                    <div class="p-4"><a href="https://www.facebook.com/FaztTech/" target="_blank"><i class="fab fa-youtube"></i></a></div>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 py-2">
+            <div class="card">
+              <div class="card-body">
+                <img class="img-fluid rounded-circle w-50 m-auto" src="img/person.png" alt="persona1" >
+                <h3>Jhon Carter</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="p-4"><a href="https://www.facebook.com/FaztTech/" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
+                    <div class="p-4"><a href="https://www.facebook.com/FaztTech/" target="_blank"><i class="fab fa-twitter"></i></a></div>
+                    <div class="p-4"><a href="https://www.facebook.com/FaztTech/" target="_blank"><i class="fab fa-youtube"></i></a></div>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 py-2">
+            <div class="card">
+              <div class="card-body">
+                <img class="img-fluid rounded-circle w-50 m-auto" src="img/person.png" alt="persona1" >
+                <h3>Jhon Carter</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="p-4"><a href="https://www.facebook.com/FaztTech/" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
+                    <div class="p-4"><a href="https://www.facebook.com/FaztTech/" target="_blank"><i class="fab fa-twitter"></i></a></div>
+                    <div class="p-4"><a href="https://www.facebook.com/FaztTech/" target="_blank"><i class="fab fa-youtube"></i></a></div>
+                </div> 
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 py-2">
+            <div class="card">
+              <div class="card-body">
+                <img class="img-fluid rounded-circle w-50 m-auto" src="img/person.png" alt="persona1" >
+                <h3>Jhon Carter</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="p-4"><a href="https://www.facebook.com/FaztTech/" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
+                    <div class="p-4"><a href="https://www.facebook.com/FaztTech/" target="_blank"><i class="fab fa-twitter"></i></a></div>
+                    <div class="p-4"><a href="https://www.facebook.com/FaztTech/" target="_blank"><i class="fab fa-youtube"></i></a></div>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="bg-light py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9">
+              <h3>Contacto</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <form action="#">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <i class="fas fa-user input-group-text"></i>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <i class="fas fa-envelope input-group-text"></i>
+                  </div>
+                  <input type="email" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <i class="fas fa-pencil-alt input-group-text"></i>
+                  </div>
+                  <textarea name="" id="" cols="30" rows="10" placeholder="Escribir su mensaje" class="form-control"></textarea>
+                </div>
+
+                <button class="btn btn-primary btn-lg btn-block">
+                  Send your message
+                </button>
+                
+              </form>
+            </div>
+            <div class="col-lg-3 align-self-center">
+              <img src="img/logo.png" alt="logotipo" class="img-fluid d-none d-md-block">
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container p-3 text-white">
+        <div class="row justify-content-center">
+          <p>
+            copyright &copy; 2020
+          </p>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+    <!-- BOOSTRAP JAVASCRIPT -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

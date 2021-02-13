@@ -1,0 +1,19 @@
+.navbar .nav-item .nav-link{
+    color: #fff;
+}
+
+.main-header{
+    background: url(../img/background.jpg);
+    background-size: cover;
+    min-height: 500px;/* Esto indica que lo minimo de altura es 500px, cuando la imagen desparece background-overlay tiene una altura de 239px
+    pero main-hader tiene una altura minima de 500px, entonces la lamina solo ocupa 239px, pero esto esta mal , deberia ocupar todo el height de main-header*/
+}
+/* Esta clase no es de boostrap , es creada para colocar una lamina entre la imagen de fondo y las letras*/
+.background-overlay{
+    background: rgba(112, 111, 211,.5);
+    min-height: 500px;
+}
+
+.team, .footer{
+    background: #30336b;
+}
